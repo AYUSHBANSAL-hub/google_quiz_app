@@ -52,8 +52,7 @@ const quizData = [
       options: ["Spanish", "Portuguese", "French", "English"],
       correctAnswer: 1
     }
-  ];  
-
+];  
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState([]);
